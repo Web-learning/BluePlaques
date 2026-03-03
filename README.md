@@ -1,2 +1,2 @@
 # BluePlaques
-Setting up a structure for your Blue Plaques Explorer.
+* Begin with setting up a structure for your Blue Plaques Explorer.
