@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blue Plaques Explorer</title>
+  <meta name="description" content="Interactive Blue Plaques heritage map" />
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <link rel="icon" href="images/favicon.png" />
+</head>
+<body>
+
+<header>
+  <h1>Blue Plaques Explorer</h1>
+  <p>Discover local heritage landmarks</p>
+
+  <div class="controls">
+    <input type="text" id="searchInput" placeholder="Search inscriptions..." />
+    <select id="accuracyFilter">
+      <option value="all">All Locations</option>
+      <option value="accurate">Accurate Only</option>
+      <option value="approximate">Approximate Only</option>
+    </select>
+    <button id="locateBtn">My Location</button>
+  </div>
+</header>
+
+<main class="container">
+  <section class="plaque-section">
+    <h2>Plaques</h2>
+    <div id="plaqueGrid" class="plaque-grid"></div>
+  </section>
+
+  <section class="map-section">
+    <h2>Map</h2>
+    <div id="map"></div>
+  </section>
+</main>
+
+<div class="drawer" id="drawer">
+  <div class="drawer-handle"></div>
+  <div class="drawer-content" id="drawerContent"></div>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
