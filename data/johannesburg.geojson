@@ -1,1 +1,13 @@
-
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Constitution Hill",
+    "category": "apartheid",
+    "description": "Former prison and constitutional court.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Constitution_Hill,_Johannesburg"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [28.0436, -26.1887]
+  }
+}
