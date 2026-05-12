@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>South African Heritage Atlas</title>
+  <title>Heritage Map System</title>
 
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
@@ -13,29 +13,7 @@
 
 <body>
 
-<div id="sidebar">
-
-  <h2>Heritage Atlas</h2>
-
-  <label>City</label>
-  <select id="citySelect">
-    <option value="johannesburg">Johannesburg</option>
-    <option value="middelburg">Middelburg</option>
-    <option value="capetown">Cape Town</option>
-  </select>
-
-  <label>Category</label>
-  <select id="categoryFilter">
-    <option value="all">All</option>
-    <option value="heritage">Heritage</option>
-    <option value="apartheid">Apartheid Sites</option>
-    <option value="architecture">Architecture</option>
-  </select>
-
-  <div id="infoPanel"></div>
-
-</div>
-
+<div id="sidebar"></div>
 <div id="map"></div>
 
 <script src="app.js"></script>
