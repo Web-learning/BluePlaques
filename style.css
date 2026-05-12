@@ -1,1 +1,24 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
 
+#sidebar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 320px;
+  height: 100%;
+  overflow: auto;
+  padding: 15px;
+  background: #f8f9fa;
+  border-right: 1px solid #ccc;
+}
+
+#map {
+  position: absolute;
+  left: 320px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
