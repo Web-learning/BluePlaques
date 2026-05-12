@@ -1,89 +1,126 @@
-
-// --------------------
-// MAP INIT
-// --------------------
-
-const map = L.map('map').setView([-26.2041, 28.0473], 11);
+const map = L.map('map').setView([-29, 24], 6);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
-let geoLayer = null;
+let currentLayer = null;
 
-// --------------------
-// LOAD SIDEBAR (MARKDOWN)
-// --------------------
+// -----------------------------
+// CITY DATA MAP
+// -----------------------------
 
-function loadSidebar() {
+const cityFiles = {
+  johannesburg: "data/johannesburg.geojson",
+  middelburg: "data/middelburg.geojson",
+  capetown: "data/capetown.geojson"
+};
 
-  fetch('content/sidebar.md')
-    .then(res => res.text())
-    .then(md => {
-      document.getElementById('sidebar').innerHTML =
-        marked.parse(md);
-    });
+// -----------------------------
+// LOAD GEOJSON
+// -----------------------------
+
+async function loadCity(city) {
+
+  const res = await fetch(cityFiles[city] + "?t=" + Date.now());
+  const data = await res.json();
+
+  if (currentLayer) {
+    map.removeLayer(currentLayer);
+  }
+
+  currentLayer = L.geoJSON(data, {
+
+    pointToLayer: (feature, latlng) =>
+      L.circleMarker(latlng, {
+        radius: 6,
+        fillColor: "#1565c0",
+        color: "#fff",
+        weight: 2,
+        fillOpacity: 0.9
+      }),
+
+/* FILTERING + POPUPS */
+    filter: (feature) => {
+
+      const selected = document.getElementById("categoryFilter").value;
+
+      if (selected === "all") return true;
+
+      return feature.properties.category === selected;
+
+    },
+
+    onEachFeature: async (feature, layer) => {
+
+      const p = feature.properties;
+
+      const img = await getWikimediaImage(p.wikipedia);
+
+      layer.bindPopup(`
+        <div>
+          <h3>${p.name || "Site"}</h3>
+          <p>${p.description || ""}</p>
+
+          ${img ? `<img class="popup-image" src="${img}">` : ""}
+
+          ${p.wikipedia ?
+            `<a href="${p.wikipedia}" target="_blank">
+              Wikipedia
+            </a>` : ""
+          }
+        </div>
+      `);
+
+    }
+
+  }).addTo(map);
+
+  map.fitBounds(currentLayer.getBounds());
 
 }
 
-// --------------------
-// LOAD GEOJSON MAP
-// --------------------
+// -----------------------------
+// WIKIMEDIA COMMONS IMAGE FETCH
+// -----------------------------
 
-function loadMapData() {
+async function getWikimediaImage(wikiUrl) {
 
-  fetch('data/plaques.geojson?cache=' + Date.now())
-    .then(res => res.json())
-    .then(data => {
+  if (!wikiUrl) return null;
 
-      if (geoLayer) {
-        map.removeLayer(geoLayer);
-      }
+  try {
 
-      geoLayer = L.geoJSON(data, {
+    const title = wikiUrl.split("/wiki/")[1];
 
-        pointToLayer: (feature, latlng) =>
-          L.circleMarker(latlng, {
-            radius: 7,
-            fillColor: "#1565c0",
-            color: "#fff",
-            weight: 2,
-            fillOpacity: 0.9
-          }),
+    const api = `https://en.wikipedia.org/api/rest_v1/page/media-list/${title}`;
 
-/* popups = clickable heritage database */
-        onEachFeature: (feature, layer) => {
+    const res = await fetch(api);
+    const data = await res.json();
 
-          const p = feature.properties || {};
+    const file = data.items.find(i => i.type === "image");
 
-          layer.bindPopup(`
-            <h3>${p.name || "Heritage Site"}</h3>
-            <p>${p.description || ""}</p>
+    return file ? file.src : null;
 
-            ${p.wikipedia ?
-              `<a href="${p.wikipedia}" target="_blank">
-                Wikipedia
-              </a>` : ""
-            }
-          `);
-
-        }
-
-      }).addTo(map);
-
-      map.fitBounds(geoLayer.getBounds());
-
-    });
+  } catch (e) {
+    return null;
+  }
 
 }
 
-// --------------------
-// AUTO REFRESH (LIVE DATA)
-// --------------------
+// -----------------------------
+// EVENT LISTENERS
+// -----------------------------
 
-// refresh every 30 seconds (no page reload)
-setInterval(loadMapData, 30000);
+document.getElementById("citySelect").addEventListener("change", (e) => {
+  loadCity(e.target.value);
+});
 
-// initial load
-loadSidebar();
-loadMapData();
+document.getElementById("categoryFilter").addEventListener("change", () => {
+  loadCity(document.getElementById("citySelect").value);
+});
+
+// -----------------------------
+// INITIAL LOAD
+// -----------------------------
+
+loadCity("johannesburg");
