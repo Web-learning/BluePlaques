@@ -1,17 +1,76 @@
 {
   "type": "FeatureCollection",
   "features": [
+
     {
       "type": "Feature",
       "properties": {
-        "name": "Constitution Hill",
-        "description": "Former prison and constitutional court site.",
-        "wikipedia": "https://en.wikipedia.org/wiki/Constitution_Hill,_Johannesburg"
+        "name": "Rahima Moosa House",
+        "category": "Liberation History",
+        "description": "Home of Rahima and Hassen Moosa in Newclare.",
+        "wiki": "https://en.wikipedia.org/wiki/Rahima_Moosa_House"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [28.0436, -26.1887]
+        "coordinates": [27.9749, -26.2047]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bear Lodge",
+        "category": "Architecture",
+        "description": "Historic Upper Houghton residence.",
+        "wiki": "https://artefacts.co.za/main/Buildings/bldgframes_mob.php?bldgid=16541"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.0602, -26.1745]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "House Bernstein",
+        "category": "Liberation History",
+        "description": "Home of Rusty and Hilda Bernstein.",
+        "wiki": "https://artefacts.co.za/main/Buildings/bldgframes_mob.php?bldgid=16544"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.0739, -26.1786]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tutu House",
+        "category": "Liberation History",
+        "description": "Desmond Tutu residence on Vilakazi Street.",
+        "wiki": "https://en.wikipedia.org/wiki/Tutu_House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.9089, -26.2347]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zoo Lake Plaque",
+        "category": "Landscape Heritage",
+        "description": "Centenary plaque at Zoo Lake boathouse.",
+        "wiki": "https://joburgheritage.org.za/new-blue-plaque-for-zoo-lake/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.0304, -26.1456]
       }
     }
+
   ]
 }
