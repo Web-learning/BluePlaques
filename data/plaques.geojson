@@ -1,1 +1,29 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Constitution Hill",
+        "description": "Former prison complex and constitutional court.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Constitution_Hill,_Johannesburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.0436, -26.1887]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vilakazi Street",
+        "description": "Historic street in Soweto.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Vilakazi_Street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.9089, -26.2347]
+      }
+    }
+  ]
+}
