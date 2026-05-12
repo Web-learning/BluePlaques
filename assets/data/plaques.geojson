@@ -1,1 +1,17 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Constitution Hill",
+        "description": "Former prison and constitutional court site.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Constitution_Hill,_Johannesburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.0436, -26.1887]
+      }
+    }
+  ]
+}
