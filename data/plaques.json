@@ -1,1 +1,140 @@
 
+[
+  {
+    "id": "ZA-WC-001",
+    "plaqueTitle": "Treaty Tree",
+    "propertyName": "Treaty Tree",
+    "plaqueType": "blue-plaque",
+    "status": "verified",
+    "city": "Cape Town",
+    "province": "Western Cape",
+    "address": "Treaty Road and Spring Street, Woodstock, Cape Town",
+    "lat": -33.92626,
+    "lng": 18.45130,
+    "commemorates": "The 1806 Treaty of the Cape",
+    "propertyDescription": "A historic white milkwood tree associated with the signing of the treaty following the Battle of Blaauwberg.",
+    "locationClue": "Find the historic milkwood tree in Woodstock associated with the beginning of the second British occupation of the Cape.",
+    "wikidataQid": null,
+    "wikidataStatus": "Needs QID verification",
+    "wikipediaTitle": "Treaty Tree",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Treaty_Tree",
+    "sources": [
+      {
+        "name": "Cape Town Heritage Foundation",
+        "url": "https://www.cthf.co.za/blue-plaques/"
+      },
+      {
+        "name": "Battle of Blaauwberg Heritage Committee",
+        "url": "https://battle.blaauwberg.net/the_treaty_tree.php"
+      },
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Treaty_Tree"
+      }
+    ],
+    "questions": [
+      {
+        "question": "What historical event is associated with the Treaty Tree?",
+        "options": [
+          "The transfer of the Cape following the Battle of Blaauwberg",
+          "The founding of Johannesburg",
+          "The Union of South Africa",
+          "The Anglo-Zulu War"
+        ],
+        "answer": 0,
+        "explanation": "The treaty signed on 10 January 1806 marked the transfer of the Cape to British control."
+      },
+      {
+        "question": "On what date was the treaty signed?",
+        "options": [
+          "6 April 1652",
+          "10 January 1806",
+          "31 May 1910",
+          "27 April 1994"
+        ],
+        "answer": 1,
+        "explanation": "The treaty was signed on 10 January 1806."
+      },
+      {
+        "question": "Which tree species is the Treaty Tree?",
+        "options": [
+          "Baobab",
+          "Yellowwood",
+          "White milkwood",
+          "Wild fig"
+        ],
+        "answer": 2,
+        "explanation": "The Treaty Tree is a white milkwood tree."
+      }
+    ]
+  },
+  {
+    "id": "ZA-GP-001",
+    "plaqueTitle": "Baptist Church of Troyeville",
+    "propertyName": "Baptist Church, Troyeville",
+    "plaqueType": "blue-plaque",
+    "status": "verified",
+    "city": "Johannesburg",
+    "province": "Gauteng",
+    "address": "3 Dawe Street, Troyeville, Johannesburg",
+    "lat": -26.201447,
+    "lng": 28.066836,
+    "commemorates": "The history of the Baptist Church of Troyeville",
+    "propertyDescription": "A historic Johannesburg church founded in 1897. The present church building was begun in 1909.",
+    "locationClue": "Find the historic Baptist church in the Johannesburg suburb of Troyeville.",
+    "wikidataQid": null,
+    "wikidataStatus": "Needs QID verification",
+    "wikipediaTitle": "Baptist Church, Troyeville",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Baptist_Church,_Troyeville",
+    "sources": [
+      {
+        "name": "The Heritage Portal",
+        "url": "https://www.theheritageportal.co.za/plaque/baptist-church-troyeville"
+      },
+      {
+        "name": "Artefacts",
+        "url": "https://www.artefacts.co.za/main/Buildings/bldgframes.php?bldgid=18562"
+      },
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Baptist_Church,_Troyeville"
+      }
+    ],
+    "questions": [
+      {
+        "question": "In which year was the Baptist Church of Troyeville founded?",
+        "options": [
+          "1886",
+          "1897",
+          "1909",
+          "1911"
+        ],
+        "answer": 1,
+        "explanation": "The congregation was founded in 1897 in a small wood and iron building."
+      },
+      {
+        "question": "What was the original building known as?",
+        "options": [
+          "The Tin Tabernacle",
+          "The Iron Cathedral",
+          "The People's Church",
+          "The Troyeville Hall"
+        ],
+        "answer": 0,
+        "explanation": "The original wood and iron structure was known as the Tin Tabernacle."
+      },
+      {
+        "question": "When did construction of the present church building begin?",
+        "options": [
+          "1897",
+          "1901",
+          "1909",
+          "1920"
+        ],
+        "answer": 2,
+        "explanation": "The present building was begun in 1909, with its spire erected in 1911."
+      }
+    ]
+  }
+]
+
