@@ -194,6 +194,253 @@
         "explanation": "The plaque was unveiled on 23 March 2013."
       }
     ]
+  },
+  {
+    "id": "ZA-GP-003",
+    "plaqueTitle": "Mahatma Gandhi plaque",
+    "propertyName": "Gandhi Family Home",
+    "plaqueType": "blue-plaque",
+    "status": "verified",
+    "city": "Johannesburg",
+    "province": "Gauteng",
+    "address": "11 Albermarle Street, Troyeville, Johannesburg",
+    "lat": -26.19949,
+    "lng": 28.07419,
+    "commemorates": "Indian leader Mohandas Gandhi and family",
+    "propertyDescription": "Indian leader Mohandas Gandhi lived here from 1904 to 1906 together with his wife Kasturba and sons Manilal, Ramdas and Devdas. They shared the house with Henry Polak, Gandhi's friend and colleague in his law office. In 1905 they were joined by Polak's wife Millie.",
+    "locationClue": "Find the double-storey villa in Troyeville where Gandhi lived with the Polak family.",
+    "wikidataQid": null,
+    "wikidataStatus": "Needs QID verification",
+    "wikipediaTitle": "Troyeville",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Troyeville",
+    "sources": [
+      {
+        "name": "Blue Plaque Register",
+        "url": "https://registers.app"
+      },
+      {
+        "name": "Johannesburg 1912 - Troyeville",
+        "url": "https://johannesburg1912.com"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Between which years did Gandhi live at 11 Albermarle Street?",
+        "options": ["1900 to 1902", "1904 to 1906", "1908 to 1909", "1911 to 1913"],
+        "answer": 1,
+        "explanation": "Gandhi lived here from 1904 to 1906 with his wife Kasturba and sons."
+      },
+      {
+        "question": "Who did Gandhi share the house with?",
+        "options": ["Herman Kallenbach", "Henry Polak", "Jan Smuts", "David Webster"],
+        "answer": 1,
+        "explanation": "They shared the house with Henry Polak, Gandhi's friend and colleague in his law office."
+      },
+      {
+        "question": "What type of house does the plaque describe it as?",
+        "options": ["Single-storey cottage", "Double-storey, detached, eight-roomed villa", "Flat in an Art Deco block", "Wood and iron Tin Tabernacle"],
+        "answer": 1,
+        "explanation": "Millie Polak described it as a double-storey, detached, eight-roomed building of the modern villa type."
+      }
+    ]
+  },
+  {
+    "id": "ZA-GP-004",
+    "plaqueTitle": "Dutch Reformed Church, Troyeville / Fairview",
+    "propertyName": "Dutch Reformed Church",
+    "plaqueType": "blue-plaque",
+    "status": "verified",
+    "city": "Johannesburg",
+    "province": "Gauteng",
+    "address": "Op de Bergen Street, Fairview / Troyeville, Johannesburg",
+    "lat": -26.2025,
+    "lng": 28.071,
+    "commemorates": "Johannesburg's oldest Dutch Reformed Church",
+    "propertyDescription": "Johannesburg's oldest Dutch Reformed Church. Cornerstone laid by General J.H. de la Rey on 2 May 1906 and inaugurated on 26 January 1907. Plans by Kallenbach & Reynolds. Designed in the shape of a Greek cross. Blue plaque unveiled 26 May 2018 as part of Three New Blue Plaques for Troyeville walking tour.",
+    "locationClue": "Find Johannesburg's oldest Dutch Reformed Church on the Troyeville / Fairview border.",
+    "wikidataQid": null,
+    "wikidataStatus": "Needs QID verification",
+    "wikipediaTitle": null,
+    "wikipediaUrl": null,
+    "sources": [
+      {
+        "name": "The Heritage Portal - Three New Blue Plaques for Troyeville",
+        "url": "https://www.theheritageportal.co.za/article/three-new-blue-plaques-troyeville-walking-tour-26-may-2018"
+      },
+      {
+        "name": "Johannesburg 1912 - Fairview",
+        "url": "https://johannesburg1912.com"
+      }
+    ],
+    "questions": [
+      {
+        "question": "When was the cornerstone of this Dutch Reformed Church laid?",
+        "options": ["2 May 1906", "26 January 1907", "26 May 2018", "9 March 1973"],
+        "answer": 0,
+        "explanation": "The cornerstone was laid by General J.H. de la Rey on 2 May 1906."
+      },
+      {
+        "question": "When was the church inaugurated?",
+        "options": ["1904", "1906", "1907", "1912"],
+        "answer": 2,
+        "explanation": "It was inaugurated on 26 January 1907."
+      },
+      {
+        "question": "What shape was the church designed in?",
+        "options": ["Latin cross", "Greek cross", "Circular", "Rectangular hall"],
+        "answer": 1,
+        "explanation": "It was designed in the shape of a Greek cross to suit the square dimensions of the plot."
+      },
+      {
+        "question": "When was its blue plaque unveiled?",
+        "options": ["23 March 2013", "26 May 2018", "1 May 2009", "26 January 1907"],
+        "answer": 1,
+        "explanation": "It was one of three plaques unveiled on the 26 May 2018 Troyeville walking tour."
+      }
+    ]
+  },
+  {
+    "id": "ZA-GP-005",
+    "plaqueTitle": "Beryl Court",
+    "propertyName": "Beryl Court",
+    "plaqueType": "blue-plaque",
+    "status": "verified",
+    "city": "Johannesburg",
+    "province": "Gauteng",
+    "address": "Beelaerts Street, Troyeville, Johannesburg",
+    "lat": -26.2008,
+    "lng": 28.0695,
+    "commemorates": "Art Deco block of flats in Troyeville",
+    "propertyDescription": "Delightful Art Deco building, Beryl Court, in Troyeville. A well-kept Art Deco block of flats traditionally favoured by artists, with brick-red open-air walkways. Blue plaque unveiled 26 May 2018.",
+    "locationClue": "Find the Art Deco block of flats on the hill in Troyeville, favoured by artists.",
+    "wikidataQid": null,
+    "wikidataStatus": "Needs QID verification",
+    "wikipediaTitle": null,
+    "wikipediaUrl": null,
+    "sources": [
+      {
+        "name": "The Heritage Portal - Three New Blue Plaques for Troyeville",
+        "url": "https://www.theheritageportal.co.za/article/three-new-blue-plaques-troyeville-walking-tour-26-may-2018"
+      },
+      {
+        "name": "The Heritage Portal - Tea in Troyeville",
+        "url": "https://www.theheritageportal.co.za/article/tea-troyeville-13-june-2021"
+      }
+    ],
+    "questions": [
+      {
+        "question": "What architectural style is Beryl Court known for?",
+        "options": ["Victorian", "Art Deco", "Art Nouveau", "Cape Dutch"],
+        "answer": 1,
+        "explanation": "Beryl Court is described as a delightful Art Deco building."
+      },
+      {
+        "question": "What group has traditionally favoured living in Beryl Court?",
+        "options": ["Miners", "Artists", "Lawyers", "Soldiers"],
+        "answer": 1,
+        "explanation": "It is a well-kept Art Deco block traditionally favoured by artists."
+      },
+      {
+        "question": "When was the Beryl Court blue plaque unveiled?",
+        "options": ["23 March 2013", "26 May 2018", "1 May 2009", "13 June 2021"],
+        "answer": 1,
+        "explanation": "It was unveiled on the 26 May 2018 walking tour with the other two Troyeville plaques."
+      }
+    ]
+  },
+  {
+    "id": "ZA-GP-006",
+    "plaqueTitle": "Clarence House / Troyeville House",
+    "propertyName": "Clarence House",
+    "plaqueType": "blue-plaque",
+    "status": "verified",
+    "city": "Johannesburg",
+    "province": "Gauteng",
+    "address": "Corner Pretoria and Clarence Streets, Troyeville, Johannesburg",
+    "lat": -26.201,
+    "lng": 28.066,
+    "commemorates": "Clarence House mansion, Troyeville",
+    "propertyDescription": "Imposing mansion on the corner of Pretoria and Clarence Streets, visible from as far as Yeoville. Steep twin gables and use of stone, contrasting with white decorative finishes. Home to the Master of the High Court in 1905. In 1925 purchased by the Salvation Army and used for many years as a training centre. Blue plaque unveiled 26 May 2018.",
+    "locationClue": "Find the imposing mansion on the corner of Pretoria and Clarence Streets in Troyeville.",
+    "wikidataQid": null,
+    "wikidataStatus": "Needs QID verification",
+    "wikipediaTitle": null,
+    "wikipediaUrl": null,
+    "sources": [
+      {
+        "name": "The Heritage Portal - Three New Blue Plaques for Troyeville",
+        "url": "https://www.theheritageportal.co.za/article/three-new-blue-plaques-troyeville-walking-tour-26-may-2018"
+      }
+    ],
+    "questions": [
+      {
+        "question": "On which corner does Clarence House stand?",
+        "options": ["Pretoria and Clarence Streets", "Eleanor and Albermarle Streets", "Dawe and Beelaerts Streets", "Commissioner and Roberts Avenue"],
+        "answer": 0,
+        "explanation": "It stands on the corner of Pretoria and Clarence Streets in Troyeville."
+      },
+      {
+        "question": "Who lived in Clarence House in 1905?",
+        "options": ["The Master of the High Court", "Mohandas Gandhi", "David Webster", "General de la Rey"],
+        "answer": 0,
+        "explanation": "Home to the Master of the High Court in 1905."
+      },
+      {
+        "question": "Who purchased Clarence House in 1925?",
+        "options": ["Johannesburg Heritage Foundation", "The Salvation Army", "The Dutch Reformed Church", "Hollard"],
+        "answer": 1,
+        "explanation": "In 1925 it was purchased by the Salvation Army, and was for many years used as a training centre."
+      }
+    ]
+  },
+  {
+    "id": "ZA-GP-007",
+    "plaqueTitle": "David Webster Park Mosaic",
+    "propertyName": "David Webster Park",
+    "plaqueType": "mosaic-plaque",
+    "status": "verified",
+    "city": "Johannesburg",
+    "province": "Gauteng",
+    "address": "David Webster Park, Troyeville, Johannesburg",
+    "lat": -26.202,
+    "lng": 28.068,
+    "commemorates": "David Webster, assassinated in Troyeville",
+    "propertyDescription": "Troyeville Park, originally Bloemen Hof / Bloemhof Park, renamed David Webster Park on 1 May 2009. A mosaic plaque by artist Jacob Ramaboya reads: 'David Webster 1945-1989 Assassinated in Troyeville for his fight against apartheid - lived for justice, peace and friendship'.",
+    "locationClue": "Find the park in Troyeville renamed for David Webster.",
+    "wikidataQid": null,
+    "wikidataStatus": "Needs QID verification",
+    "wikipediaTitle": null,
+    "wikipediaUrl": null,
+    "sources": [
+      {
+        "name": "SAHA - Park renamed to commemorate David Webster",
+        "url": "https://www.saha.org.za"
+      },
+      {
+        "name": "Johannesburg 1912 - Troyeville",
+        "url": "https://johannesburg1912.com"
+      }
+    ],
+    "questions": [
+      {
+        "question": "What was David Webster Park originally called?",
+        "options": ["Bloemen Hof / Bloemhof Park", "Gandhi Park", "Troyeville Square", "Clarence Park"],
+        "answer": 0,
+        "explanation": "It was originally known as Bloemen Hof / Bloemhof Park."
+      },
+      {
+        "question": "When was the park renamed David Webster Park?",
+        "options": ["1 May 1989", "1 May 2009", "23 March 2013", "26 May 2018"],
+        "answer": 1,
+        "explanation": "It was renamed on 1 May 2009, twenty years after his assassination."
+      },
+      {
+        "question": "Who made the mosaic plaque in the park?",
+        "options": ["Jacob Ramaboya", "Ilse Pahl", "Gwen Gill", "Jennifer Ferguson"],
+        "answer": 0,
+        "explanation": "A mosaic plaque by artist Jacob Ramaboya was placed on a wall in the park."
+      }
+    ]
   }
 ]
 
