@@ -135,6 +135,65 @@
         "explanation": "The present building was begun in 1909, with its spire erected in 1911."
       }
     ]
+  },
+  {
+    "id": "ZA-GP-002",
+    "plaqueTitle": "David Webster blue plaque",
+    "propertyName": "David Webster House",
+    "plaqueType": "blue-plaque",
+    "status": "verified",
+    "city": "Johannesburg",
+    "province": "Gauteng",
+    "address": "13 Eleanor Street, Troyeville, Johannesburg",
+    "lat": -26.2006,
+    "lng": 28.0736,
+    "commemorates": "Anthropologist and activist David Webster",
+    "propertyDescription": "Anthropologist and activist David Webster lived here from 1986 until his assassination three years later. Dr Webster played a leading role in the Detainees' Parents Support Committee, the United Democratic Front and affiliated organisations. He co-founded the Five Freedoms Forum formed as a home for whites in the struggle for democracy. On 1 May 1989, he was gunned down outside this house by an agent of the apartheid regime. Unveiled 23 March 2013.",
+    "locationClue": "Find the house in Troyeville where activist David Webster lived and was assassinated.",
+    "wikidataQid": null,
+    "wikidataStatus": "Needs QID verification",
+    "wikipediaTitle": "David Webster (anthropologist)",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/David_Webster_(anthropologist)",
+    "sources": [
+      {
+        "name": "Blue Plaque Register",
+        "url": "https://registers.app"
+      },
+      {
+        "name": "Johannesburg 1912 - Troyeville",
+        "url": "https://johannesburg1912.com"
+      },
+      {
+        "name": "South African History Online",
+        "url": "https://www.sahistory.org.za/people/david-joseph-webster"
+      }
+    ],
+    "questions": [
+      {
+        "question": "From which year did David Webster live at 13 Eleanor Street, Troyeville?",
+        "options": ["1980", "1984", "1986", "1989"],
+        "answer": 2,
+        "explanation": "The plaque inscription states he lived here from 1986 until his assassination three years later."
+      },
+      {
+        "question": "Which organisation did Webster co-found, according to the plaque?",
+        "options": ["Detainees' Parents Support Committee", "United Democratic Front", "Five Freedoms Forum", "Congress of South African Trade Unions"],
+        "answer": 2,
+        "explanation": "He co-founded the Five Freedoms Forum formed as a home for whites in the struggle for democracy."
+      },
+      {
+        "question": "On what date was David Webster gunned down outside this house?",
+        "options": ["16 June 1976", "1 May 1989", "1 May 2009", "23 March 2013"],
+        "answer": 1,
+        "explanation": "On 1 May 1989, he was gunned down outside this house by an agent of the apartheid regime."
+      },
+      {
+        "question": "When was the David Webster blue plaque unveiled?",
+        "options": ["1 May 1989", "1 May 2009", "23 March 2013", "16 June 2012"],
+        "answer": 2,
+        "explanation": "The plaque was unveiled on 23 March 2013."
+      }
+    ]
   }
 ]
 
