@@ -1,0 +1,159 @@
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<link rel="stylesheet" href="./style.css">
+
+<div class="app">
+
+<header class="game-header">
+  <img
+    src="https://Web-learning.github.io/BluePlaques/plaq.svg"
+    alt="Plaq logo"
+    class="plaqlogo">
+
+  <div><h1>& A</h1>
+    <p>Blue Plaques</p>
+  </div>
+    <div class="timer">
+      <small>TIME LEFT</small>
+      <strong id="timer">05:00</strong>
+    </div>
+</header>
+
+  
+
+  <section class="stats">
+    <div><small>Score</small><strong id="score">0</strong></div>
+    <div><small>Properties found</small><strong id="found">0</strong></div>
+    <div><small>Questions correct</small><strong id="correct">0</strong></div>
+  </section>
+
+  <main class="layout">
+
+    <section class="map-panel">
+      <div class="panel-heading">
+        <h2>Blue Plaques Mapped</h2>
+        <span id="mapStatus">Load the challenge to begin</span>
+      </div>
+      <div id="map"></div>
+      <div class="legend">
+        <span>🔵 Unidentified plaque</span>
+        <span>🟢 Identified plaque</span>
+      </div>
+      
+<details id="heritagePanel" class="heritage-panel">
+  <summary>
+    <span class="heritage-icon">🏛️</span>
+    <span>
+      <strong>Discover the Heritage</strong>
+      <small>Explore the history behind this plaque</small>
+    </span>
+    <span class="heritage-chevron">＋</span>
+  </summary>
+
+  <div class="heritage-content">
+
+    <img
+      id="heritagePhoto"
+      class="heritage-photo"
+      src=""
+      alt="Heritage plaque photograph"
+      hidden
+    >
+
+    <div id="heritagePhotoPlaceholder"
+         class="heritage-photo-placeholder">
+      🏛️ Heritage photograph unavailable
+    </div>
+
+    <h3 id="heritageName">Property name</h3>
+
+    <p id="heritageLocation" class="heritage-location"></p>
+
+    <div class="heritage-history">
+      <h4>Historical Background</h4>
+      <p id="heritageHistory"></p>
+    </div>
+
+    <div class="heritage-identifiers">
+      <p>
+        <strong>Wikidata:</strong>
+        <a id="heritageWikidata"
+           href="#"
+           target="_blank"
+           rel="noopener">
+          View Wikidata record
+        </a>
+      </p>
+
+      <p>
+        <strong>Wikipedia:</strong>
+        <a id="heritageWikipedia"
+           href="#"
+           target="_blank"
+           rel="noopener">
+          Read Wikipedia article ↗
+        </a>
+      </p>
+    </div>
+
+  </div>
+</details>
+
+    </section>
+
+    <aside class="game-panel">
+
+      <div class="stage" id="stage">STAGE 1 · LOCATE</div>
+
+      <h2 id="questionTitle">Ready to explore?</h2>
+
+      <p id="questionDescription">
+        Start Q & A about blue plaques.
+      </p>
+
+      <div id="questionArea"></div>
+
+      <div id="feedback"></div>
+
+      <button id="startButton" class="primary">
+        Start Q & A
+      </button>
+
+      <button id="nextButton" class="secondary" hidden>
+        Next plaque →
+      </button>
+
+      <button id="finishButton" class="secondary" hidden>
+        Finish Q & A
+      </button>
+
+    </aside>
+
+  </main>
+
+  <section class="article-panel">
+    <h2>📖 Explorer this plaque further with Wikipedia</h2>
+
+    <div id="articleContent">
+      <p>Identify a plaque today and contribute to a living history.</p>
+    </div>
+
+    <div class="article-links" id="articleLinks"></div>
+  </section>
+
+  <section class="results" id="results" hidden>
+    <h2>🏆 Challenge complete!</h2>
+    <div id="finalResults"></div>
+    <button id="restartButton" class="primary">
+      Play again
+    </button>
+  </section>
+
+  <footer>
+    BLUE PLAQUE Q & A · EXPLORE · DISCOVER · CONTRIBUTE
+  </footer>
+
+</div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <script src="./script.js"></script>
